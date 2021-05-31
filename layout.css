@@ -1,0 +1,62 @@
+/*
+  Layout ELEMENTS
+*/
+
+/* multiple selectors are divided by comma */
+header, main, footer, aside {
+  padding: 20px;
+}
+
+/* media query */
+/* that only applies if the screen is smaller than 800px */
+@media (max-width: 800px) {
+  header, main, footer, aside {
+    padding: 10px;
+  }
+}
+
+header {
+  width: 100%;
+  min-height: 35vh;
+
+  text-align: center;
+
+  background-color: #000;
+
+  background-image: url(images/sara-julie-9Gz5bMWdGYE-unsplash.jpg);
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: 30%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header h2 {
+  margin-bottom: 0;
+
+  font-size: 200%;
+}
+
+main {
+}
+
+footer {
+}
+
+aside {
+}
+/* test of specificity */
+ul {
+}
+
+/*
+  NAVIGATION
+*/
+nav {
+
+}
+/* when the selectors are listed without the comma
+we are selecting the children of the previous selector  */
+nav ul {
+
+}

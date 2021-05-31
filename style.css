@@ -1,0 +1,67 @@
+* {
+  /* border: solid 1px #ff0000; */
+}
+
+/* MOBILE FIRST CONCEPT */
+html {
+  /* the base font size <p>,... */
+  font-size: 10px;
+}
+/* media queries */
+/* the value defines a breakpoint */
+@media (min-width: 420px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media (min-width: 800px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+body {
+  /* propery: value; */
+  /* values can have units or be unitless */
+  margin: 0;
+
+  /*  colors
+      HEX: 0,1,2,3,4,5,6,a,b,d,e,f
+      #RRGGBB
+      #RRGGBBAA
+      shorthand
+      #RGB
+      #RGBA
+
+      KEYWORD: red, green, blue,
+  */
+  background-color: #f9f7e8;
+  /* typography */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #61bfad;
+}
+
+/*
+  TYPOGRAPHIC ELEMENTS
+*/
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px 0;
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+/* links */
+a {
+  color: #167c80;
+}
+
+/* images */
+img {
+  /* responsive image trick */
+  width: 100%;
+  height: auto;
+}
