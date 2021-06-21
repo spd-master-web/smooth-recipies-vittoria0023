@@ -35,7 +35,7 @@ body {
 
       KEYWORD: red, green, blue,
   */
-  background-color: #111111;
+  background-color: #d4acac;
   /* typography */
   font-family: Arial, Helvetica, sans-serif;
   color: #eeeeee;
@@ -115,3 +115,4 @@ img {
   width: 100%;
   height: auto;
 }
+
